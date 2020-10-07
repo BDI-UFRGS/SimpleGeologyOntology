@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.inf.ufrgs.br/bdi/ontologies/simplegeologyontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.inf.ufrgs.br/bdi/ontologies/simplegeologyontology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology/1.0</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Fonseca Garcia</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_intrusive_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_lutite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_rhyolite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_outcrop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_organic-rich_silicious_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_carbonate_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_andesite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_sandstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_phyllite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_silicious_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_evaporite_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_marble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_iron-rich_sedimentary_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_schist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_extrabasinal_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_sedimentary_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_hand_sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_volcanic_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_organic-rich_intrabasinal_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_slate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_conglomerate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_granite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_geological_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_basalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_phosphorite_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_gabbro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_igneous_rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UFRGS:SGO_diorite"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_andesite"/>
+        <Class IRI="#UFRGS:SGO_volcanic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_basalt"/>
+        <Class IRI="#UFRGS:SGO_volcanic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_carbonate_rock"/>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_conglomerate"/>
+        <Class IRI="#UFRGS:SGO_extrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_diorite"/>
+        <Class IRI="#UFRGS:SGO_intrusive_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_evaporite_rock"/>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_extrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_sedimentary_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_gabbro"/>
+        <Class IRI="#UFRGS:SGO_intrusive_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_geological_unit"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_geological_object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_granite"/>
+        <Class IRI="#UFRGS:SGO_intrusive_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_hand_sample"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_hand_sample"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_constituted_by"/>
+            <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_igneous_rock"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_sedimentary_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_intrusive_rock"/>
+        <Class IRI="#UFRGS:SGO_igneous_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_iron-rich_sedimentary_rock"/>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_lutite"/>
+        <Class IRI="#UFRGS:SGO_extrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_marble"/>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_organic-rich_intrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_organic-rich_silicious_rock"/>
+        <Class IRI="#UFRGS:SGO_organic-rich_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_outcrop"/>
+        <Class IRI="#UFRGS:SGO_geological_unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_phosphorite_rock"/>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_phyllite"/>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_rhyolite"/>
+        <Class IRI="#UFRGS:SGO_volcanic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_sandstone"/>
+        <Class IRI="#UFRGS:SGO_extrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_schist"/>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_sedimentary_rock"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology#UFRGS:GeoCoreOntology_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_silicious_rock"/>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_slate"/>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UFRGS:SGO_volcanic_rock"/>
+        <Class IRI="#UFRGS:SGO_igneous_rock"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_andesite"/>
+        <Class IRI="#UFRGS:SGO_basalt"/>
+        <Class IRI="#UFRGS:SGO_rhyolite"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_carbonate_rock"/>
+        <Class IRI="#UFRGS:SGO_evaporite_rock"/>
+        <Class IRI="#UFRGS:SGO_iron-rich_sedimentary_rock"/>
+        <Class IRI="#UFRGS:SGO_phosphorite_rock"/>
+        <Class IRI="#UFRGS:SGO_silicious_rock"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_organic-rich_intrabasinal_rock"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_conglomerate"/>
+        <Class IRI="#UFRGS:SGO_lutite"/>
+        <Class IRI="#UFRGS:SGO_sandstone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_diorite"/>
+        <Class IRI="#UFRGS:SGO_gabbro"/>
+        <Class IRI="#UFRGS:SGO_granite"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_extrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_igneous_rock"/>
+        <Class IRI="#UFRGS:SGO_metamorphic_rock"/>
+        <Class IRI="#UFRGS:SGO_sedimentary_rock"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_intrusive_rock"/>
+        <Class IRI="#UFRGS:SGO_volcanic_rock"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#UFRGS:SGO_marble"/>
+        <Class IRI="#UFRGS:SGO_phyllite"/>
+        <Class IRI="#UFRGS:SGO_schist"/>
+        <Class IRI="#UFRGS:SGO_slate"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_andesite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">andesite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_andesite</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">andesito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_basalt</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">basalt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_basalt</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">basalto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_carbonate_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">carbonato</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_carbonate_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">carbonate rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_carbonate_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha carbonática</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_chemical_intrabasinal_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha química intrabacial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_chemical_intrabasinal_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">chemical intrabasinal rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_conglomerate</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conglomerado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_conglomerate</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conglomerate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_diorite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diorite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_diorite</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diorito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_evaporite_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">evaporite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_evaporite_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha evaporítica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_evaporite_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">evaporite rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_evaporite_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">evaporito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_extrabasinal_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha extrabacial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_extrabasinal_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">extrabasinal rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_gabbro</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gabbro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_gabbro</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">gabro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_geological_unit</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">geological unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_geological_unit</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">unidade geológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_granite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">granite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_granite</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">granito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_hand_sample</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">amostra de mão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_hand_sample</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hand sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_igneous_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">igneous rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_igneous_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha ígnea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_intrabasinal_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha intrabacial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_intrabasinal_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">intrabasinal rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_intrusive_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plutonic rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_intrusive_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">intrusive rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_intrusive_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha plutônica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_iron-rich_sedimentary_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha ferrífera</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_iron-rich_sedimentary_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">iron-rich sedimentary rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_lutite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lutite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_lutite</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lutito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_marble</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">marble</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_marble</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mármore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_metamorphic_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">metamorphic rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_metamorphic_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha metamórfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_organic-rich_intrabasinal_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha intrabasinal bioconstruída</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_organic-rich_intrabasinal_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organic-rich intrabasinal rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_organic-rich_silicious_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha silicosa bioconstruída</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_organic-rich_silicious_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organic-rich silicious rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_outcrop</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">afloramento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_outcrop</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outcrop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_phosphorite_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">phosphate rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_phosphorite_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha fosfática</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_phosphorite_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">phosphorite rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_phyllite</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">filito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_phyllite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">phyllite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_rhyolite</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rhyolite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_rhyolite</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">riolito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_sandstone</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">arenito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_sandstone</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sandstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_schist</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">schist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_schist</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">xisto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_sedimentary_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha sedimentar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_sedimentary_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sedimentary rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000118"/>
+        <IRI>#UFRGS:SGO_silicious_rock</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rocha silicosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_silicious_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">silicious rock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_slate</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ardósia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_slate</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">slate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UFRGS:SGO_volcanic_rock</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">volcanic rock</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
