@@ -6,12 +6,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://www.inf.ufrgs.br/bdi/ontologies/simplegeologyontology">
+    <Prefix name="" IRI="https://www.inf.ufrgs.br/bdi/ontologies/simplegeologyontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology/1.0</Import>
+    <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocoreontology</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Luan Fonseca Garcia</Literal>
@@ -38,10 +39,10 @@
         <Class IRI="#UFRGS:SGO_andesite"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:SGO_sandstone"/>
+        <Class IRI="#UFRGS:SGO_phyllite"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:SGO_phyllite"/>
+        <Class IRI="#UFRGS:SGO_sandstone"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:SGO_silicious_rock"/>
@@ -86,10 +87,10 @@
         <Class IRI="#UFRGS:SGO_granite"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:SGO_geological_unit"/>
+        <Class IRI="#UFRGS:SGO_basalt"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:SGO_basalt"/>
+        <Class IRI="#UFRGS:SGO_geological_unit"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:SGO_phosphorite_rock"/>
@@ -98,10 +99,10 @@
         <Class IRI="#UFRGS:SGO_chemical_intrabasinal_rock"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
+        <Class IRI="#UFRGS:SGO_gabbro"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#UFRGS:SGO_gabbro"/>
+        <Class IRI="#UFRGS:SGO_intrabasinal_rock"/>
     </Declaration>
     <Declaration>
         <Class IRI="#UFRGS:SGO_igneous_rock"/>
